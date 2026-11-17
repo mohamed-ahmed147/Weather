@@ -180,7 +180,7 @@ searchInput.addEventListener("input", function () {
   getWeather(this.value);
 });
 
-getWeather("alexandria");
+getWeather("giza");
 
 var success = function (position) {
   console.log(position);
